@@ -115,7 +115,6 @@ align-content: center;
 .success-heading{
   font-size: 38px;
   font-weight: bold;
-  /* margin-top: 0px; */
 }
 .success-data{
   display: flex;
@@ -134,10 +133,8 @@ align-content: center;
   margin: 0px;
 }
 .success{
-  /* display: block; */
   text-align: center;
   width: auto; 
-  /* gap: 40px; */
   background-color: rgba(78, 71, 255, 0.1);
   padding: 50px 80px;
   margin-bottom: 150px;
@@ -166,11 +163,9 @@ align-content: center;
   background-color: white;
   border-radius: 14px;
   padding: 24px;
-  /* gap: 24px; */
   text-align: left;
 }
 .card-content{
-  /* gap: 10px; */
   margin-bottom: 20px;
 }
 .card-heading{
@@ -222,7 +217,6 @@ align-content: center;
   text-align: center;
   padding: 71px 150px;
   background-color: white;
-  /* display: block; */
   margin-bottom: 150px;
 }
 .CTA-button{
@@ -282,7 +276,6 @@ footer nav ul li a{
 .footer-nav{
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 30px;
 }
 .footer-heading{
@@ -291,3 +284,20 @@ footer nav ul li a{
   font-weight: bold;
   margin-bottom: 0px;
 }
+
+/* --x-- */
+
+/* Hoover effect */
+
+.primary-button:hover {
+  background-color: white;
+  color: black;
+  /* box-shadow: 0 8px 20px rgba(78, 71, 255, 0.3); */
+  /* transform: translateY(-2px); */
+  /* transition: all 0.3s ease; */
+}
+.primary-button {
+  /* transition: all 0.3s ease; */
+}
+
+/* --x-- */
