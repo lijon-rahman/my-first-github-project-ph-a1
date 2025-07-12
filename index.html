@@ -9,11 +9,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Styles/style.css">
 </head>
-<body class="raleway-primary">
+<body class="raleway-primary full-body">
     <header class="header"> <!-- This is the header section -->
 
          <nav class="header-nav"> <!-- This is the nav section -->
-            <h3 class="inter-logo primary-color">LOGO</h3>
+            <h3 class="inter-logo primary-color logo">LOGO</h3>
             <a href=""><button class="primary-button">Sign Up</button></a>
          </nav>
 
@@ -59,10 +59,24 @@
             <h3 class="review-heading title-color">What our users say</h3>
             <div class="review_cards">
                 <div class="card">
+                    <img class="star-icon" src="Assets/icon-star.png" alt="">
+                    <div class="card-content">
+                        <div class="card-heading">Loved by Designers</div>
+                        <div class="card-description">This template instantly leveled up our presence.” – Studio Vertex</div>
+                    </div>
+                    <div class="avatar-icon" class="reviewer-info">
+                        <img src="Assets/avatar.png" alt="">
+                        <div class="reviewer-detail">
+                            <h3 class="reviewer-name">Reviewer name</h3>
+                            <p class="date">Date</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
                     <img src="Assets/icon-star.png" alt="">
-                    <div class="review-content">
-                        <div class="review-heading">Loved by Designers</div>
-                        <div class="review-description">This template instantly leveled up our presence.” – Studio Vertex</div>
+                    <div class="card-content">
+                        <div class="card-heading">Loved by Designers</div>
+                        <div class="card-description">This template instantly leveled up our presence.” – Studio Vertex</div>
                     </div>
                     <div class="reviewer-info">
                         <img src="Assets/avatar.png" alt="">
@@ -74,23 +88,9 @@
                 </div>
                 <div class="card">
                     <img src="Assets/icon-star.png" alt="">
-                    <div class="review-content">
-                        <div class="review-heading">Loved by Designers</div>
-                        <div class="review-description">This template instantly leveled up our presence.” – Studio Vertex</div>
-                    </div>
-                    <div class="reviewer-info">
-                        <img src="Assets/avatar.png" alt="">
-                        <div class="reviewer-detail">
-                            <h3 class="reviewer-name">Reviewer name</h3>
-                            <p class="date">Date</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="Assets/icon-star.png" alt="">
-                    <div class="review-content">
-                        <div class="review-heading">Loved by Designers</div>
-                        <div class="review-description">This template instantly leveled up our presence.” – Studio Vertex</div>
+                    <div class="card-content">
+                        <div class="card-heading">Loved by Designers</div>
+                        <div class="card-description">This template instantly leveled up our presence.” – Studio Vertex</div>
                     </div>
                     <div class="reviewer-info">
                         <img src="Assets/avatar.png" alt="">
@@ -106,7 +106,7 @@
         <div class="CTA"> <!-- This is the CTA section -->
             <h3 class="CTA-heading title-color">Ready to focus better</h3>
             <p class="CTA-description description-color">This template instantly leveled up our presence.” – Studio Vertex</p>
-            <button class="primary-button">Ger Started Free</button>
+            <button class="primary-button CTA-button">Ger Started Free</button>
             <img src="Assets/wc-big.png" alt="" class="CTA-img">
         </div>
 
@@ -118,14 +118,13 @@
                 <label for="message-name">Name</label>
                 <input type="text" class="message-name" placeholder="full name">
                 <label for="message-text">Message</label>
-                <textarea name="" class="message-text" placeholder="write your message...." cols="30" rows="10"></textarea>
+                <textarea name="" id="message-text" placeholder="write your message...." cols="30" rows="10"></textarea>
                 <input class="primary-button" type="submit" value="submit">
             </form>
         </div>
     </Main>
 
     <footer class="footer"> <!-- This is the footer section -->
-
         <h3 class="footer-heading">LOGO</h3>
         <p class="footer-description description-color">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
         <nav>
@@ -136,7 +135,6 @@
                 <li><a href="">Services</a></li>
             </ul>
         </nav>
-
     </footer>
 </body>
 </html>
