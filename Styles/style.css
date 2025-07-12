@@ -71,9 +71,17 @@ nav h3{
 /* --x-- */
 
 /* This is preview section */
+
+.preview-img{
+  border-radius: 48px;
+}
 .preview{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 203px;
 }
+
 /* --x-- */
 
 /* This is Success section */
@@ -84,6 +92,8 @@ nav h3{
 }
 .success-data{
   display: flex;
+  gap: 158px;
+  margin: 0px;
 }
 .data-digit{
   font-size: 80px;
@@ -93,29 +103,52 @@ nav h3{
   font-size: 20px;
   font-weight: 400;
 }
+.success{
+  gap: 40px;
+}
 /* --x-- */
 
 /* This is Review section */
+
+.review_cards{
+  display: flex;
+}
+.review-heading{
+  text-align: center;
+}
 
 /* --x-- */
 
 /* This is CTA section */
 
+.CTA{
+  text-align: center;
+}
+.CTA-img{
+  border-radius: 48px;
+}
 /* --x-- */
 
 /* This is Leave a message section */
 
 .message{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div form input[type="email"], div form input[type="text"], div form input[type="textarea"]{
+  width: 100%;
+  height: 70px;
+  gap: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 32px;
+  display: block;
 }
 
 /* --x-- */
 
 /* This is footer section */
-
-.footer-nav{
-  display: flex;
-}
 
 footer nav ul li{
     list-style: none;
@@ -124,4 +157,9 @@ footer nav ul li a{
   text-decoration: none;
   color: #8987A1;
 }
-
+.footer{
+  text-align: center;
+}
+.footer-nav{
+  display: flex;
+}
