@@ -32,21 +32,16 @@
   border-radius: 10px;
   border: none;
 }
-
+.body{
+  background-color: #F5F8FF;
+  width: auto;
+  padding: 150px 100px 100px;
+}
 /* --x-- */
 
 /* Header styles */
 
-header {
-width: 1440px;
-height: 698px;
-background-image: url(../Assets/Hero-bg.png);
-background-repeat: no-repeat;
-gap: 158px;
-}
 nav{
-  width: 1140px;
-  height: 151px;
   display: flex;
   justify-content: space-between;
   align-items: center; 
@@ -62,11 +57,17 @@ nav h3{
   font-weight: bold;
 }
 .banner{
+  width: auto;
   gap: 37px;
-  width: 905px;
-  height: 152px;
   top: 0;
   text-align: center;
+}
+.header{
+background-image: url(../Assets/Hero-bg.png);
+gap: 158px;
+margin: 0px;
+padding: 0px 150px 200px;
+align-content: center;
 }
 /* --x-- */
 
@@ -75,11 +76,21 @@ nav h3{
 .preview-img{
   border-radius: 48px;
 }
+.preview-heading{
+  font-size: 42px;
+  font-weight: bold;
+}
+.preview-description{
+  font-size: 24px;
+  font-weight: 400px;
+}
 .preview{
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 203px;
+  width: auto;
+  margin-bottom: 150px;
 }
 
 /* --x-- */
@@ -98,13 +109,21 @@ nav h3{
 .data-digit{
   font-size: 80px;
   font-weight: bold;
+  margin: 0px;
 }
 .data-description{
   font-size: 20px;
   font-weight: 400;
+  margin: 0px;
 }
 .success{
+  display: block;
+  text-align: center;
+  width: auto;
   gap: 40px;
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 50px 150px;
+  margin-bottom: 150px;
 }
 /* --x-- */
 
@@ -116,34 +135,54 @@ nav h3{
 .review-heading{
   text-align: center;
 }
-
+.review{
+  margin-bottom: 150px;
+}
 /* --x-- */
 
 /* This is CTA section */
 
-.CTA{
-  text-align: center;
-}
 .CTA-img{
   border-radius: 48px;
 }
+.CTA-heading{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0px;
+}
+.CTA-description{
+  margin: 0px;
+}
+.CTA{
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 150px;
+  padding: 71px 150px;
+  background-color: white;
+  display: block;
+}
+
 /* --x-- */
 
 /* This is Leave a message section */
 
+div form input[type="email"], div form input[type="text"], div form input[type="textarea"]{
+  border-radius: 10px;
+  gap: 10px;
+  border: none;
+  padding: 20px 32px;
+  display: block;
+}
+.message-title{
+  font-size: 97px;
+  font-weight: bold;
+}
 .message{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-div form input[type="email"], div form input[type="text"], div form input[type="textarea"]{
-  width: 100%;
-  height: 70px;
-  gap: 10px;
-  border-radius: 10px;
-  border: none;
-  padding: 20px 32px;
-  display: block;
+  padding: 71px 0px;
+  gap: auto;
 }
 
 /* --x-- */
@@ -157,9 +196,15 @@ footer nav ul li a{
   text-decoration: none;
   color: #8987A1;
 }
-.footer{
-  text-align: center;
-}
 .footer-nav{
   display: flex;
+}
+.footer-heading{
+  color: #4E47FF;
+  font-size: 100px;
+  font-weight: bold;
+}
+.footer{
+  text-align: center;
+  background-color: white;
 }
